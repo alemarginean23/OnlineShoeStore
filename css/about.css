@@ -1,0 +1,161 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../galerie/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+ul{	
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	font-family: century gothic;
+	display: inline-block; 
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+		background-color: #fff;
+		color: #000;
+}
+.main{
+	max-width: 1200px;
+	margin:auto;
+}
+
+
+.container{
+		width: 100%;
+		height: auto;
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+}
+
+.about{	
+	width: 100%;
+	height: 100px;
+	display: flex;
+	margin-left: 130px;
+	align-items: left;
+	justify-content: left;
+	flex-wrap: wrap;
+}
+
+.text{
+	font-size: 20px;
+	color: #fff;
+	font-family: century gothic;
+}
+
+.content{
+	padding-left: 120px;
+	padding-right: 120px;
+	width: 100%;
+	height: auto;
+	font-size: 23px;
+	font-family: century gothic;
+	color: #fff;
+	line-height: 40px;
+	text-align: left;
+}
+.link {
+	float: left;
+	
+}
+.link a{text-decoration: none;
+		font-size:15px;
+		line-height: 0;
+}
+.link a p{
+		font-family: century gothic;
+		padding: 15px;
+		color: #fff;
+		border: solid 1px white;
+		transition: 0.6s all;
+		text-align: center;
+		
+		
+}
+.link a:hover > p{
+		background: white;
+		color: black;
+}
+
+.team-section{	
+		overflow: hidden;
+		text-align: center;
+		padding: 10px;
+		margin-bottom:30px;
+}
+.team-section h1{
+		text-transform: uppercase;
+		margin-bottom: 60px;
+		color: #fff;
+		font-size: 30px;
+		font-family: century gothic;
+}
+.border{
+	display: block; 
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background:#fff ;
+	margin-bottom: 30px;
+}
+.ps{
+	margin-bottom: 40px;
+	margin: auto;
+	width: 100%;
+}
+.ps a img{
+	width:100%;
+	height: auto;
+	filter: grayscale(100%);
+	transition: 0.6s all;
+	
+}
+.ps a:hover > img{
+			filter: none;
+		
+}
+.ps a{ 
+	display: inline-block;
+	margin: 0 40px;
+	width: 160px;
+	height: 160px ;
+	overflow: hidden;
+	border-radius: 50%;
+ 
+}
+
+.bucata{
+		padding: 15px;
+		display: inline-block;
+		margin: auto;
+}
+.bucata p{
+		color: transparent;
+		text-align: center;
+		width:100%;
+		height: auto;
+		font-size: 20px;
+		transition: 0.6s;
+}
+.bucata:hover p{
+	color: white;
+}
